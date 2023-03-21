@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavirey Programacion</title>
+    <link rel="stylesheet" href="./styles2.css">
+</head>
+<body>
+    <section class="formulario">
+    
+    <form method="GET" action="procesar-formulario.php">
+        <label for="nombre">Nombre:</label>
+        <input class="controls" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required autofocus><br><br>
+      
+        <label for="correo">Correo electrónico:</label>
+        <input class="controls" type="email" id="correo" name="correo" placeholder="Ingrese su Correo" required><br><br>
+      
+        <label for="url">URL:</label>
+        <input class="controls" type="url" id="url" name="url" placeholder="Ingrese la URL"><br><br>
+      
+        <label for="fecha">Fecha:</label>
+        <input class="controls" type="date" id="fecha" name="fecha" placeholder="Ingrese Fecha"><br><br>
+      
+        <label for="tiempo">Tiempo:</label>
+        <input class="controls" type="time" id="tiempo" name="tiempo" placeholder="Ingrese Tiempo"><br><br>
+      
+        <label for="fecha_hora">Fecha y Hora:</label>
+        <input class="controls" type="datetime-local" id="fecha_hora" name="fecha_hora" placeholder="Ingrece Fecha y hora"><br><br>
+      
+        <label for="mes">Mes:</label>
+        <input class="controls" type="month" id="mes" name="mes" placeholder="Ingrese Mes"><br><br>
+      
+        <label for="semana">Semana:</label>
+        <input class="controls" type="week" id="semana" name="semana" placeholder="Ingrese Semana"><br><br>
+      
+        <label for="numero">Número:</label>
+        <input class="controls" type="number" id="numero" name="numero" min="-10" max="10"><br><br>
+      
+        <label for="telefono">Teléfono:</label>
+        <input class="controls" type="tel" id="telefono" name="telefono" placeholder="Ingrese su Telefono"><br><br>
+      
+        <label for="termino_busqueda">Término de búsqueda:</label>
+        <input class="controls" type="search" id="termino_busqueda" name="termino_busqueda" placeholder="Ingrese su Busqueda"><br><br>
+      
+        <label for="color_favorito">Color favorito:</label>
+        <input class="controls" type="color" id="color_favorito" name="color_favorito" placeholder="Ingrese su Color Favorito"><br><br>
+      
+        <input class="controls" type="submit" value="Enviar">
+      </form>
+    
+</section>
+</body>
+</html>

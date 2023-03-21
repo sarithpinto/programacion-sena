@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    background: white;
+}
+
+.header {
+    margin-top: 30px;
+    background: linear-gradient(rgb(207, 186, 186), rgb(221, 161, 161));
+    text-align: center;
+    
+    }
+nav{
+    width: 100%;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menuhorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menuhorizontal2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuhorizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuhorizontal > li > a:active{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.menuhorizontal > li:hover{
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.menuvertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:rgba(0, 0, 0, .5) ;
+    
+}
+
+.menuvertical2 {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:rgba(0, 0, 0, .5) ;
+    right: -200px;
+    top: 0px;
+}
+
+
+.menuhorizontal li:hover .menuvertical{
+    display: block;
+}
+
+.menuvertical li:hover .menuvertical2{
+    display: block;
+}
+
+.menuvertical li:hover{
+    background-color: black;
+}
+
+.menuvertical2 li:hover{
+    background-color: black;
+}
+
+.menuvertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    
+}
+
+.menuvertical2 li ul li ul a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.menuvertical li a:active{
+    display: block;
+    color: red;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    
+}
+
+.menuvertical2 li ul li ul a:active{
+    display: block;
+    color: red;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
